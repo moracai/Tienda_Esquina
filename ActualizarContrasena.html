@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="h-full bg-white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Actualizar Contraseña</title>
+</head>
+</head>
+<body>
+    <div class="contenedor-form">
+        <img class="mx-auto h-50 w-auto" src="imgen.svg" alt="Your Company">
+        <h2>Recuperar Contraseña</h2>
+        <form action="enviar_recuperacion.php" method="POST">
+            <input type="email" name="correo_electronico" placeholder="Correo Electrónico" required>
+            <label class="reenviar-checkbox">
+                <input type="checkbox" name="reenviar">
+                <span>Reenviar</span>
+            </label>
+            <input type="submit" value="Enviar Código">
+        </form>
+    </div>
+</body>
+</html>

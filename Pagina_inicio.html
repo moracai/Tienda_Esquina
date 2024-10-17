@@ -1,151 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Pagina_inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Inicio - Supermercado La Esquina</title>
 </head>
+
 <body class="home">
-     <header class="header">
-        <div class="Inicio">
-            <input type="checkbox" id="categorias" />
-            <label for="categorias">Categorias
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6500 400" width="600" height="50">
-                    <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
-                </svg>
-                
-            </label>
+    <header class="header">
+        <div class="header_Inicio">
+            <i class="fa-solid fa-bars header_Inicio_icon"></i>
+            <h1>Categorias</h1>
         </div>
-        <nav class="nabvar">
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">Mis Pedidos</a></li>
-          </ul>
-        </nav>
-        <div>
-            <ul>
-        <li class="submenu">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6500 400" width="600" height="60">
-                <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l45.5 0c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5L488 384c13.3 0 24-10.7 24-24s-10.7-24-24-24l-288.3 0c-11.5 0-21.4-8.2-23.6-19.5L170.7 288l288.5 0c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32L360 32l0 102.1 23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-64 64c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23L312 32 120.1 32C111 12.8 91.6 0 69.5 0L24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"/>
-            </svg>
-            
-            <div id="carrito">
-                <table id="lista_carrito">
-                    <thead>
-                        <tr>
-                            <th>Imagen</th>
-                            <th>Nombre</th>
-                            <th>Precio</th>
-                            <th>Cantidad</th>
-                            <th>Subtotal</th>
-                            <th>Eliminar</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>  
-                <a href="vaciar carrito"> </a>
-          </div>
-        </li>
-            </ul>
-        </div>
-
-        <div class="header-content container">
-            <div class="header-txt">
-                <h1>Supermercado La Esquina</h1>
-            </div>
-        </div>   
-
-</header>
-
-    <main class="productos container">
-
-        <h2>Productos</h2>
-
-        <div class="box-container" id="lista-1">
-
-            <div class="box">
-                <img src="/frutasVerduras.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Frutas y Verduras</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/carnes.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Carnes</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/granos.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Granos</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/huevos y lacteos.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Huevos y Lacteos</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/panaderia.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Panaderia</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/dulceria.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Snacks y Dulceria</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/bebidas.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Bebidas</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/cuidado personal.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Cuidado Personal</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/mascotas.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Mundo Mascotas</h3>
-                                    
-                </div>
-            </div>
-            <div class="box">
-                <img src="/cuidado del hogar.png" alt="Frutas y Verduras">
-                <div class="productos-txt">
-                    <h3>Cuidado del Hogar</h3>
-                                    
-                </div>
+        <h1>Supermercado La Esquina</h1>
+        <div class="cont_perfil">
+            <div class="cont_icon_perfil">
+                <i class="fa-solid fa-user icon_perfil"></i>
             </div>
         </div>
+    </header>
+
+    <main class="main_container_productos">
+
+        <nav style="width: 250px; border: 1px solid;"></nav>
+        <article class="container_productos">
+            <section class="header_container_productos">
+                <div style="width: 360px; height: 50px; border: 1px solid;"></div>
+                <div class="cont_icon_container_productos">
+                    <img src="carrito.svg" alt="" class="icon_container_productos">
+                </div>
+            </section>
+            <div class="box-container" id="lista-1">
+
+                <div class="box">
+                    <img src="/frutasVerduras.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Frutas y Verduras</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/carnes.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Carnes</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/granos.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Granos</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/huevos y lacteos.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Huevos y Lacteos</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/panaderia.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Panaderia</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/dulceria.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Snacks y Dulceria</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/bebidas.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Bebidas</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/cuidado personal.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Cuidado Personal</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/mascotas.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Mundo Mascotas</h3>
+    
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/cuidado del hogar.png" alt="Frutas y Verduras">
+                    <div class="productos-txt">
+                        <h3>Cuidado del Hogar</h3>
+    
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
 
 
-      
-        <footer>
-          <p>Derechos reservados © 2024 Supermercado La Esquina</p>
-        </footer>
-      </body>
-      </html>
+
+    <footer>
+        <p>Derechos reservados © 2024 Supermercado La Esquina</p>
+    </footer>
+</body>
+
+</html>
 
 </body>
+<script src="https://kit.fontawesome.com/cddd3c2037.js" crossorigin="anonymous"></script>
+
 </html>

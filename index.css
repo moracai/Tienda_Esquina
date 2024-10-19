@@ -4,13 +4,12 @@ html{
 
   }
   .contenedor-form {
-    max-width: 550px !important;
-    margin: 100px auto !important;
-    padding: 20px !important;
-    background-color: rgba(255, 255, 255, 0.9) !important;
-    border: 1px solid #faf9f9 !important;
-    border-radius: 10px !important;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    max-width: 550px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #faf9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .registrar {
     text-align: center;
@@ -76,15 +75,6 @@ html{
     margin-left: 10; 
 }
 
-.contenedor-form {
-    max-width: 550px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #faf9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
   
   .mx-auto {
     display: block;
@@ -111,9 +101,7 @@ form {
   }
   
   input[type="email"] {
-    width: 70%;
     height: 30px;
-    margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -170,4 +158,16 @@ form {
     margin: 0;
 }
 
+.p_crear_CN{
+  margin: 4px !important;
+}
 
+.input_login{
+  margin: 0.1rem !important;
+  width: 67%;
+}
+
+#password{
+  padding: 10px;
+  height: 30px;
+}
